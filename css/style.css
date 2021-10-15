@@ -28,15 +28,15 @@ main {
     border-radius: 20px;
 }
 
-#custom-name, #field-custom-name, #uk, #us, #submit{
+#enter-custom-name, #custom-name, #uk, #us, #submit{
     margin: 10px 0 10px 0;
 }
 
-#field-custom-name, #us, #uk {
+#custom-name, #us, #uk {
     margin-left: 10px;
 }
 
-#field-custom-name {
+#custom-name {
     color: #FFF;
 
     background-color: #424F51;
@@ -66,6 +66,9 @@ main {
     background-color: #424f51d2;
 }
 
+#story {
+    max-width: 500px;
+}
 
 footer {
     color: #FFF;

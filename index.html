@@ -23,25 +23,28 @@
 
     <main>
 
-        <section>
 
-            <form>
+            <div>
 
-                <label id="custom-name" for="filed-custom-name">Enter custom name:</label><input type="text" name="field-custom-name" id="field-custom-name"><br>
-                <label id="option-us" for="us">US</label><input type="radio" name="option-lang" id="us">
-                <label id="option-uk" for="uk">UK</label><input type="radio" name="option-lang" id="uk">
-                
-                <br>
-                
-                <input type="button" value="Generate random story" id="submit">
+                <label id="enter-custom-name" for="custom-name">Enter custom name:</label>
+                <input id="custom-name" type="text" placeholder="">
 
-            </form>
+            </div>
 
-        </section>
+            <div>
 
-        <section>
+                <label for="us">US</label><input id="us" type="radio" name="ukus" value="us" checked>
+                <label for="uk">UK</label><input id="uk" type="radio" name="ukus" value="uk">
+              
+            </div>
 
+            <div>
 
+                <button id="submit">Generate random story</button>
+
+            </div>
+              
+            <p id="story"></p>
 
         </section>
 
